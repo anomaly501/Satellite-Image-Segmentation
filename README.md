@@ -145,7 +145,7 @@ The provided Python script (`GeoSegmention.py`) handles most steps sequentially.
 
 ### Data Preparation
 
-1.  **Modify `dataset_root`:** Open the script (`your_script_name.py`) and update the `dataset_root` variable to the correct path where your dataset resides.
+1.  **Modify `dataset_root`:** Open the script (`Geosegmentation.py`) and update the `dataset_root` variable to the correct path where your dataset resides.
     ```python
     dataset_root = r'D:\path\to\your\Semantic segmentation dataset' # <-- UPDATE THIS
     ```
@@ -155,7 +155,7 @@ The provided Python script (`GeoSegmention.py`) handles most steps sequentially.
 
 1.  **Run the Script:** Execute the Python script from your terminal within the activated virtual environment:
     ```bash
-    python your_script_name.py
+    Geosegmentation.py
     ```
 2.  **Process:** The script will:
     *   Load images and masks.
